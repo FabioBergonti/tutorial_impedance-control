@@ -5,6 +5,7 @@
 #include <yarp/os/ResourceFinder.h>
 #include <yarp/os/Property.h>
 #include <yarp/sig/Vector.h>
+#include <yarp/os/LogStream.h>
 
 // iDynTree headers
 #include <iDynTree/Core/VectorDynSize.h>
@@ -302,4 +303,3 @@ bool Module::close ()
     robotDevice.close();
     return true;
 }
-
